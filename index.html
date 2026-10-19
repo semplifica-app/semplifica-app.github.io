@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semplifica</title>
+<meta name="description" content="Semplifica: app semplici, che rispettano la tua privacy.">
+<style>
+  :root { --verde: #2e7d32; --testo: #1f2a1f; --tenue: #5b665b; --sfondo: #f7faf6; --riquadro: #ffffff; --bordo: #dfe8dd; }
+  @media (prefers-color-scheme: dark) {
+    :root { --verde: #81c784; --testo: #e6ede5; --tenue: #a9b5a8; --sfondo: #121712; --riquadro: #1b221b; --bordo: #2c372c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--sfondo); color: var(--testo); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2.2rem; margin: 0; color: var(--verde); }
+  .motto { color: var(--tenue); margin: .2em 0 2em; }
+  .app { background: var(--riquadro); border: 1px solid var(--bordo); border-radius: 12px; padding: 16px 18px; }
+  .app h2 { margin: 0 0 .3em; font-size: 1.2rem; }
+  a { color: var(--verde); }
+  footer { margin-top: 3em; color: var(--tenue); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Semplifica</h1>
+  <p class="motto">Rendere semplice ciò che deve essere alla portata di tutti.</p>
+
+  <div class="app">
+    <h2>Semplifica Spese</h2>
+    <p>Gestisci le tue spese in modo semplice. Tutti i dati restano sul tuo telefono: niente Internet, niente pubblicità, nessun dato raccolto.</p>
+    <p><a href="spese/privacy/">Informativa sulla privacy</a></p>
+  </div>
+
+  <footer>Contatti: <a href="mailto:semplifica.app@gmail.com">semplifica.app@gmail.com</a></footer>
+</main>
+</body>
+</html>
